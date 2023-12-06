@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "eslint": "^8.55.0"
+  },
+  "scripts": {
+    "lint": "cross-env ESLINT_USE_FLAT_CONFIG=true eslint src"
+  }
+}
